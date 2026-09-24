@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\",
+  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8AC610C-0473-6498-0BE3-F3E9CED88358}|C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\Tutorial_2_2|c:\\users\\m303\\desktop\\115_1_c_sharp\\115_09_24\\tutorial_2_2\\tutorial_2_2\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A8AC610C-0473-6498-0BE3-F3E9CED88358}|C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\Tutorial_2_2|solutionrelative:tutorial_2_2\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A8AC610C-0473-6498-0BE3-F3E9CED88358}|C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\Tutorial_2_2|c:\\users\\m303\\desktop\\115_1_c_sharp\\115_09_24\\tutorial_2_2\\115_1_c_sharp\\115_09_24\\tutorial_2_2\\tutorial_2_2\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A8AC610C-0473-6498-0BE3-F3E9CED88358}|C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\Tutorial_2_2|solutionrelative:tutorial_2_2\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\Tutorial_2_2\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\Tutorial_2_2\\Default.aspx",
               "RelativeDocumentMoniker": "Tutorial_2_2\\Default.aspx",
-              "ToolTip": "C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\Tutorial_2_2\\Default.aspx",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\115_1_C_sharp\\115_09_24\\Tutorial_2_2\\Tutorial_2_2\\Default.aspx",
               "RelativeToolTip": "Tutorial_2_2\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
