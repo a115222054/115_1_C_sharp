@@ -30,7 +30,7 @@
         {
             this.originalPriceTextBox = new System.Windows.Forms.TextBox();
             this.discountPercentageTextBox = new System.Windows.Forms.TextBox();
-            this.originalPricePromptLabel = new System.Windows.Forms.Label();
+            this.請 = new System.Windows.Forms.Label();
             this.discPercentagePromptLabel = new System.Windows.Forms.Label();
             this.outputDescriptionLabel = new System.Windows.Forms.Label();
             this.salePriceLabel = new System.Windows.Forms.Label();
@@ -40,89 +40,111 @@
             // 
             // originalPriceTextBox
             // 
-            this.originalPriceTextBox.Location = new System.Drawing.Point(172, 16);
+            this.originalPriceTextBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.originalPriceTextBox.Location = new System.Drawing.Point(350, 30);
+            this.originalPriceTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.originalPriceTextBox.Name = "originalPriceTextBox";
-            this.originalPriceTextBox.Size = new System.Drawing.Size(100, 20);
+            this.originalPriceTextBox.Size = new System.Drawing.Size(280, 47);
             this.originalPriceTextBox.TabIndex = 0;
             // 
             // discountPercentageTextBox
             // 
-            this.discountPercentageTextBox.Location = new System.Drawing.Point(172, 42);
+            this.discountPercentageTextBox.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.discountPercentageTextBox.Location = new System.Drawing.Point(350, 95);
+            this.discountPercentageTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.discountPercentageTextBox.Name = "discountPercentageTextBox";
-            this.discountPercentageTextBox.Size = new System.Drawing.Size(100, 20);
+            this.discountPercentageTextBox.Size = new System.Drawing.Size(280, 47);
             this.discountPercentageTextBox.TabIndex = 1;
             // 
-            // originalPricePromptLabel
+            // 請
             // 
-            this.originalPricePromptLabel.AutoSize = true;
-            this.originalPricePromptLabel.Location = new System.Drawing.Point(22, 19);
-            this.originalPricePromptLabel.Name = "originalPricePromptLabel";
-            this.originalPricePromptLabel.Size = new System.Drawing.Size(144, 13);
-            this.originalPricePromptLabel.TabIndex = 2;
-            this.originalPricePromptLabel.Text = "Enter the item\'s original price:";
+            this.請.AutoSize = false;
+            this.請.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.請.Location = new System.Drawing.Point(30, 30);
+            this.請.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.請.Name = "請";
+            this.請.Size = new System.Drawing.Size(300, 47);
+            this.請.TabIndex = 2;
+            this.請.Text = "請輸入商品原價：";
+            this.請.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.請.Click += new System.EventHandler(this.originalPricePromptLabel_Click);
             // 
             // discPercentagePromptLabel
             // 
-            this.discPercentagePromptLabel.AutoSize = true;
-            this.discPercentagePromptLabel.Location = new System.Drawing.Point(13, 42);
+            this.discPercentagePromptLabel.AutoSize = false;
+            this.discPercentagePromptLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.discPercentagePromptLabel.Location = new System.Drawing.Point(30, 95);
+            this.discPercentagePromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.discPercentagePromptLabel.Name = "discPercentagePromptLabel";
-            this.discPercentagePromptLabel.Size = new System.Drawing.Size(153, 13);
+            this.discPercentagePromptLabel.Size = new System.Drawing.Size(300, 47);
             this.discPercentagePromptLabel.TabIndex = 3;
-            this.discPercentagePromptLabel.Text = "Enter the discount percentage:";
+            this.discPercentagePromptLabel.Text = "請輸入折扣百分比：";
+            this.discPercentagePromptLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // outputDescriptionLabel
             // 
-            this.outputDescriptionLabel.AutoSize = true;
-            this.outputDescriptionLabel.Location = new System.Drawing.Point(109, 83);
+            this.outputDescriptionLabel.AutoSize = false;
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(30, 160);
+            this.outputDescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
-            this.outputDescriptionLabel.Size = new System.Drawing.Size(57, 13);
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(300, 47);
             this.outputDescriptionLabel.TabIndex = 4;
-            this.outputDescriptionLabel.Text = "Sale price:";
+            this.outputDescriptionLabel.Text = "售價：";
+            this.outputDescriptionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // salePriceLabel
             // 
             this.salePriceLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.salePriceLabel.Location = new System.Drawing.Point(172, 78);
+            this.salePriceLabel.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.salePriceLabel.Location = new System.Drawing.Point(350, 160);
+            this.salePriceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.salePriceLabel.Name = "salePriceLabel";
-            this.salePriceLabel.Size = new System.Drawing.Size(100, 23);
+            this.salePriceLabel.Size = new System.Drawing.Size(280, 47);
             this.salePriceLabel.TabIndex = 5;
             this.salePriceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(64, 125);
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.calculateButton.Location = new System.Drawing.Point(100, 245);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(75, 39);
+            this.calculateButton.Size = new System.Drawing.Size(245, 65);
             this.calculateButton.TabIndex = 6;
-            this.calculateButton.Text = "Calculate Sale Price";
+            this.calculateButton.Text = "計算售價";
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(145, 125);
+            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.exitButton.Location = new System.Drawing.Point(365, 245);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 39);
+            this.exitButton.Size = new System.Drawing.Size(245, 65);
             this.exitButton.TabIndex = 7;
-            this.exitButton.Text = "Exit";
+            this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 180);
+            this.Font = new System.Drawing.Font("Microsoft JhengHei", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.ClientSize = new System.Drawing.Size(700, 350);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.salePriceLabel);
             this.Controls.Add(this.outputDescriptionLabel);
             this.Controls.Add(this.discPercentagePromptLabel);
-            this.Controls.Add(this.originalPricePromptLabel);
+            this.Controls.Add(this.請);
             this.Controls.Add(this.discountPercentageTextBox);
             this.Controls.Add(this.originalPriceTextBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
-            this.Text = "Sale Price Calculator";
+            this.Text = "售價計算器";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,7 +154,7 @@
 
         private System.Windows.Forms.TextBox originalPriceTextBox;
         private System.Windows.Forms.TextBox discountPercentageTextBox;
-        private System.Windows.Forms.Label originalPricePromptLabel;
+        private System.Windows.Forms.Label 請;
         private System.Windows.Forms.Label discPercentagePromptLabel;
         private System.Windows.Forms.Label outputDescriptionLabel;
         private System.Windows.Forms.Label salePriceLabel;

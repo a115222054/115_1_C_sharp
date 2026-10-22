@@ -8,7 +8,7 @@ namespace Change_Counter
     static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// 應用程式的主要進入點。
         /// </summary>
         [STAThread]
         static void Main()
